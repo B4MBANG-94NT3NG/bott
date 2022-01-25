@@ -419,7 +419,7 @@ fs.writeFileSync('./database/pendaftar.json', JSON.stringify(pendaftar, null, 2)
  
 //=================( CONECTION )=================//
 
-colors = ['red', 'white', 'black', 'blue', 'yellow', 'green']
+color = ['red', 'white', 'black', 'blue', 'yellow', 'green']
 const isMedia = (type === 'imageMessage' || type === 'videoMessage')
 const isQuotedImage = type === 'extendedTextMessage' && content.includes('imageMessage')
 const isQuotedVideo = type === 'extendedTextMessage' && content.includes('videoMessage')
